@@ -1,0 +1,9 @@
+[submodule "themes/tale"]
+	path = themes/tale
+	url = https://github.com/EmielH/tale-hugo.git
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book.git
+[submodule "themes/yingyang"]
+	path = themes/yingyang
+	url = https://github.com/joway/hugo-theme-yinyang.git

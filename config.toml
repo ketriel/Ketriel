@@ -1,3 +1,30 @@
-baseURL = "http://example.org/"
+baseURL = "http://www.ketriel.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+
+title = "Ketriel's Site"
+theme = "hugo-book"
+
+disableKinds = [
+  "taxonomy",
+  "taxonomyTerm"
+]
+
+disablePathToLower = true
+enableGitInfo = true
+pygmentsStyle = "monokailight"
+pygmentsCodeFences = true
+
+[params]
+BookShowToC = true
+BookMenuBundle = "/menu"
+BookSection = "docs"
+BookEnableJS = true
+BookRepo = "https://github.com/alex-shpak/hugo-book"
+
+[author]
+  name = "Ketriel"
+  homepage = "https://www.ketriel.com/"
+
+  [[params.socials]]
+  name = "About Me"
+  link = "https://www.ketriel.com/"
